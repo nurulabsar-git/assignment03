@@ -1,28 +1,40 @@
 
-//Question Number one.
-/*function kilometerToMeter(kilometer){
+
+//Answer Number one.
+function kilometerToMeter(kilometer){
     let meter = kilometer*1000;
     return meter;
 }
 
 var convertMeter = kilometerToMeter(10);
 console.log(convertMeter);
-*/
-/*
-//Question Number Two.
+
+
+//Answer Number Two.
 function budgetCalculator(watch, phone, laptop){
-   var watchPrice = watch*50;
-   var phonePrice = phone*100;
-   var laptopPrice = laptop*500;
-   var totalPrice = watchPrice + phonePrice + laptopPrice;
-   return totalPrice;
+
+    if(watch<=0 || phone<=0 || laptop<=0){
+        return "wrong number";
+    }
+
+    else{
+    var watchPrice = watch*50;
+    var phonePrice = phone*100;
+    var laptopPrice = laptop*500;
+    var totalPrice = watchPrice + phonePrice + laptopPrice;
+    return totalPrice;
+
+    }
+
 }
 
 var result = budgetCalculator(2, 5, 4);
 console.log(result);
-*/
 
-/*function hotelCost(day){
+
+
+// Answer Number Three.
+function hotelCost(day){
   var cost = 0;
   if(day<=10){
       cost = day*100;
@@ -47,9 +59,10 @@ console.log(result);
 
 var totalCost = hotelCost(22);
 console.log(totalCost);
-*/
 
 
+
+// Answer Number four.
 megaFriend = ["nurulabsar", "absar", "rifaat"];
 var lengthiFriend = megaFriend[0];
 
@@ -61,3 +74,5 @@ for(var i = 0; i>megaFriend.length; i++){
 }
 console.log(lengthiFriend);
 
+
+/*   Thank You  */
