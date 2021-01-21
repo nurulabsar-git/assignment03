@@ -22,7 +22,7 @@ var result = budgetCalculator(2, 5, 4);
 console.log(result);
 */
 
-function hotelCost(day){
+/*function hotelCost(day){
   var cost = 0;
   if(day<=10){
       cost = day*100;
@@ -45,5 +45,19 @@ function hotelCost(day){
 
 }
 
-var totalCost = hotelCost(10);
+var totalCost = hotelCost(22);
 console.log(totalCost);
+*/
+
+
+megaFriend = ["nurulabsar", "absar", "rifaat"];
+var lengthiFriend = megaFriend[0];
+
+for(var i = 0; i>megaFriend.length; i++){
+    var friendName=megaFriend[i];
+    if(friendName>lengthiFriend){
+        lengthiFriend = friendName;
+    }
+}
+console.log(lengthiFriend);
+
